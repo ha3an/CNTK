@@ -1265,6 +1265,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSEvalClientTest", "Tests\E
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CNTKv2", "bindings\python\examples\CNTKv2.pyproj", "{1A078FC2-21C0-4F42-9A5B-0E84E944BC74}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V2LibraryDistributionTests", "Tests\UnitTests\V2LibraryDistributionTests\V2LibraryDistributionTests.vcxproj", "{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_CpuOnly|Any CPU = Debug_CpuOnly|Any CPU
@@ -1991,6 +1993,26 @@ Global
 		{1A078FC2-21C0-4F42-9A5B-0E84E944BC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A078FC2-21C0-4F42-9A5B-0E84E944BC74}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1A078FC2-21C0-4F42-9A5B-0E84E944BC74}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug_CpuOnly|Any CPU.ActiveCfg = Debug_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug_CpuOnly|Mixed Platforms.ActiveCfg = Debug_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug_CpuOnly|Mixed Platforms.Build.0 = Debug_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug_CpuOnly|x64.ActiveCfg = Debug_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug_CpuOnly|x64.Build.0 = Debug_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug|x64.ActiveCfg = Debug|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Debug|x64.Build.0 = Debug|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release_CpuOnly|Any CPU.ActiveCfg = Release_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release_CpuOnly|Mixed Platforms.ActiveCfg = Release_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release_CpuOnly|Mixed Platforms.Build.0 = Release_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release_CpuOnly|x64.ActiveCfg = Release_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release_CpuOnly|x64.Build.0 = Release_CpuOnly|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release|Any CPU.ActiveCfg = Release|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release|Mixed Platforms.Build.0 = Release|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release|x64.ActiveCfg = Release|x64
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2165,5 +2187,6 @@ Global
 		{CCC07E8E-F33A-4AF7-9F60-93E2AA61C75E} = {05E45AF7-C069-4057-BC16-0A532D068CE4}
 		{1C6E6C53-1AA7-4B69-913E-B97BB5A872CF} = {05E45AF7-C069-4057-BC16-0A532D068CE4}
 		{1A078FC2-21C0-4F42-9A5B-0E84E944BC74} = {47755F2E-D674-4175-9E38-8EA053455072}
+		{F4CCAAB2-0DB2-4281-929A-2E68E30F0F6E} = {6F19321A-65E7-4829-B00C-3886CD6C6EDE}
 	EndGlobalSection
 EndGlobal
